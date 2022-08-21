@@ -1,0 +1,6 @@
+printer _10_10_91_49 is idle.  enabled since Mon Aug  5 12:29:53 2019
+printer _192_168_1_200 is idle.  enabled since Thu Jan 27 15:25:59 2022
+printer Home_P5035i_MFP is idle.  enabled since Tue Jul 19 18:07:54 2022
+printer MFP_Type_104 is idle.  enabled since Mon Oct 10 03:02:28 2016
+printer UTAX_TA_261ci is idle.  enabled since Mon Apr 12 23:36:08 2021
+system default destination: _192_168_1_200

@@ -1,0 +1,22 @@
+#logo{
+    width: 10vw !important;
+    object-fit: contain;
+    height: 10vh !important;
+}
+body {
+    background-color: #ebeff5;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+#total-orders {
+    background-color: #4cb4c7;
+}
+#orders-delivered {
+    background-color: #7abecc;
+}
+#orders-pending {
+    background-color: #7cd1c0;
+}
+#body-main-div {
+    padding: 0 2vw;
+}
