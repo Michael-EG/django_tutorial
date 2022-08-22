@@ -20,14 +20,16 @@ from django.urls import path, include
 # from ..printx.views import printx_home
 # from ..accounts import views as accounts_views
 # from crm1.accounts import views as accounts_views
+# import accounts
+from accounts import views as accounts_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('accounts.urls')),
     path('printx/', include('printx.urls')),
-    # path('', accounts_views.home, name='main-dashboard'),
-    # path('login/', accounts_views.loginPage, name='main-login-user'),
-    # path('logout/', accounts_views.logoutUser, name='main-logout-user'),
+    path('', accounts_views.home, name='main-dashboard'),
+    path('login/', accounts_views.loginPage, name='main-login-user'),
+    path('logout/', accounts_views.logoutUser, name='main-logout-user'),
 
     # path('', printx_views.printx_home, name='test-load-devices'),
 ]

@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'printx',
     'customers',
     'django_filters',
+    'pharmacy_portal'
 ]
 
 MIDDLEWARE = [
